@@ -105,8 +105,21 @@ color:  var(--hover-txt-cl);
 .peculiarities-title{
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color:var(--capital-letters-cl);
+}
+.peculiarities-txt{
+letter-spacing: 0.03em;
+color: var(--accent-txt-cl);
+}
+
+.section-title-txt{
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--capital-letters-cl);
 }
