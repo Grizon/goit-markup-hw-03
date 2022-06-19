@@ -11,7 +11,7 @@
 --wite-txt-cl: #ffffff;
 
     /* bg-colors */
-
+--basic-bgc: #2F303A;
     /* others */
 }
 body{
@@ -87,7 +87,7 @@ color:  var(--hover-txt-cl);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--wite-txt-cl);
-    background-color: #2F303A;
+    background-color: var(--basic-bgc);
 }
 /* button */
 .button-hero{
@@ -155,3 +155,36 @@ letter-spacing: 0.03em;
 color:var(--accent-txt-cl);
 }
 /* footer */
+.footer{
+    background-color: var(--basic-bgc);
+}
+.footer-logo{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--wite-txt-cl);
+}
+.footer-address{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--wite-txt-cl);
+}
+.footer-contact{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-address:hover,
+.footer-address:focus,
+.footer-contact:hover,
+.footer-contact:focus{
+color: var(--hover-txt-cl);
+}
