@@ -154,7 +154,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color:var(--accent-txt-cl);
 }
-/* footer */
+/* footer start */
 .footer{
     background-color: var(--basic-bgc);
 }
@@ -187,4 +187,38 @@ color: rgba(255, 255, 255, 0.6);
 .footer-contact:hover,
 .footer-contact:focus{
 color: var(--hover-txt-cl);
+}
+/* footer end */
+
+/* portfolio */
+
+
+/* portfolio-button */
+.portfolio-button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--capital-letters-cl);
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+  background-color: var(--hover-txt-cl);
+  color: var(--wite-txt-cl);
+}
+
+.title-name{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--capital-letters-cl);
+}
+.work-name{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color:var(--accent-txt-cl);
 }
