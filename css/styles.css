@@ -65,6 +65,11 @@ color:  var(--hover-txt-cl);
 .link.current{
     color: var(--hover-txt-cl)
 }
+.header-link,
+.button-hero,
+.portfolio-button{      
+cursor: pointer;
+}
 /* contact */
 .contact-link {
     font-style: normal;
@@ -91,22 +96,16 @@ color:  var(--hover-txt-cl);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--wite-txt-cl);
     background-color: var(--hover-txt-cl);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    
 
 }
 .button-hero:hover,
 .button-hero:focus{
-border: 1px solid #000000;
-flex: none;
-order: 0;
-flex-grow: 0;
 background-color: #188CE8;
 }
 /* peculiarities */
