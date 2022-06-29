@@ -16,14 +16,32 @@
 --additional-bgc: #188CE8;
     /* others */
 }
-body{
+body {
 font-family: var(--main-font), sans-serif;
 font-size: 14px;
 line-height: 1.71;
 color: var(--accent-txt-cl);
 }
+/* resets */
+h1,h2,h3,h4,h5,p {
+    margin: 0px;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid tomato;
+
+}
 /* logo-start */
-/* можно показать на примере как подугому можно в один тег logo оформить */
 .header-logo,
 .logo {
 display: flex;
@@ -41,6 +59,10 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: var(--secondery-font), sans-serif;
     color: #000000;
 }
+.header-logo{
+    margin-right: 93px;
+
+}
 /* logo-end */
 
 /* common-styles-start */
@@ -49,16 +71,34 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .list{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 /* common-styles-end */
 
 /* header section */
+
+.header-container,
+.header-nav>.list,
+.header-container>.list{
+    display: flex;
+    align-items: center;
+    
+
+}
+
 .header-link{
+    display: block;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--capital-letters-cl);
+
+    margin-right: 50px; 
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
+
 .header-link:hover,
 .header-link:focus,
 .contact-link:hover,
@@ -76,23 +116,37 @@ cursor: pointer;
 }
 /* contact */
 .contact-link {
+    display: block;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--capital-letters-cl);
+    margin-left: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
+.header-container>.list{
+    margin-left: auto;
+}
+
+
 /* hero */
 .hero{
     color: var(--secondary-txt-cl);
     background-color: var(--basic-bgc);
+    text-align: center;
+    
 }
+
 .headline{
+
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
+
 letter-spacing: 0.06em;
 text-transform: uppercase;
+margin-bottom: 30px;
 
 }
 /* button */
@@ -104,6 +158,7 @@ text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--secondary-txt-cl);
     background-color: var(--hover-txt-cl);
+    margin-bottom: 94px;
     
 
 }
@@ -113,6 +168,9 @@ background-color: var(--additional-bgc);
 }
 /* peculiarities */
 
+.container-peculiarities{
+    display: flex;
+}
 .peculiarities-title{
 font-weight: 700;
 font-size: 14px;
@@ -120,6 +178,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--capital-letters-cl);
+margin-bottom: 10px;
 }
 .peculiarities-txt{
 letter-spacing: 0.03em;
