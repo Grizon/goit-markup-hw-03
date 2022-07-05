@@ -148,6 +148,8 @@ cursor: pointer;
 /* hero */
 
 .hero{
+    padding: 200px 0;
+
     color: var(--secondary-txt-cl);
     background-color: var(--basic-bgc);
     text-align: center;
@@ -155,8 +157,9 @@ cursor: pointer;
 }
 
 .headline{
-
+margin: auto;
 margin-bottom: 30px;
+max-width: 650px;
 
 font-weight: 900;
 font-size: 44px;
@@ -167,7 +170,9 @@ text-transform: uppercase;
 }
 /* button */
 .button-hero{
-    margin-bottom: 200px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: none;
 
     font-family: inherit;
     font-weight: 700;
@@ -211,10 +216,8 @@ color:var(--capital-letters-cl);
 .peculiarities-txt{
 letter-spacing: 0.03em;
 }
-.container-peculiarities{
-    margin-top: 94px;
 
-}
+
 /* work */
 
 /* .work .container{
@@ -240,9 +243,7 @@ margin-right: 30px;
 .team .list{
     display: flex;
 }
-.team-img{
-    margin-bottom: 30px;
-}
+
 .team li:not(:last-child){
 margin-right: 30px;
 }
@@ -256,8 +257,11 @@ text-align: center;
 letter-spacing: 0.03em;
 color:var(--capital-letters-cl);
 }
-.team .section-title-txt{
-padding-top: 94px;
+
+.team-txt{
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 .name-txt{
     margin-bottom: 10px;
@@ -274,11 +278,11 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-margin-bottom: 30px;
 }
-.team .container{
-padding-bottom: 94px;
+.txt-pad{
+    padding: 30px 0;
 }
+
 /* footer start */
 .footer{
     background-color: var(--basic-bgc);
